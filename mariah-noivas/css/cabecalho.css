@@ -1,0 +1,134 @@
+
+body{
+background: rgba(134, 83, 94, 0.788);
+}
+.cabecalho {
+    background-image: url("../img/cantinho.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow:  
+    0px 2px 8px black,
+    0px 10px 10px black;
+}
+.test {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 2.5s all;
+}
+
+.test:hover {
+    background: rgba(0, 0, 0, 0);
+}
+.tat {
+    position: absolute; 
+	right: 0px;
+    top: 0px; 
+    width: 420px;
+    height:auto;
+}
+
+nav {
+    position: absolute;
+    top: 12%;
+    left: 70%;
+    bottom: 0px;
+    margin-bottom: 0px;
+    height: 40px;
+    text-shadow:  
+    0px 2px 8px black,
+    0px 12px 12px black;
+}
+nav li{
+    display: inline ;
+    margin: 0 0 0 18px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;  
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cinzel', serif;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    transition: 1s all;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.titulo {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;  
+    margin: 0px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-family: 'Italianno', cursive;
+    font-size: 130px;
+    letter-spacing: 5px;
+    text-shadow:  
+    0px 2px 8px black,
+    0px 12px 12px black;
+}
+
+.pagina-principal {
+    background-color: #ffffff8a;
+    width: 90%;
+    left: 5%;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+   position: relative;
+    background: rgb(136, 85, 96);
+    width: 100%;
+    box-shadow:  
+    15px 0px 8px black,
+    10px 0px 10px black;
+}
+
+.rodape-texto {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.testinhoo {
+    background: rosybrown;
+    width: 32%;
+    height: 450px;
+    position: absolute;
+    font-size: 50px;
+    color: royalblue;
+}
+
+.testin {
+    background: rosybrown;
+    width: 32%;
+    height: 450px;
+    position: absolute;
+    font-size: 50px;
+    color: royalblue;
+    left: 70%;
+    bottom: 1%;
+}
+
+#maps {
+    width: 33,3%;
+}
+
