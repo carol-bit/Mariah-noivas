@@ -2,7 +2,10 @@ body {
     height:auto;
     width: auto;
     overflow: scroll;
-    background: black;
+        background: rgba(241, 241, 241, 0.788);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr minmax(300px, 65vh) 1fr;
 }
 
 .principal {
@@ -24,17 +27,6 @@ header {
     font-size: 30px;
 }
 
-#tit {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
-    text-shadow: 
-    0px 0px 8px black,
-    0px 0px 8px#ac35acad,
-    0px 0px 8px #ac35acad,
-    0px 0px 8px #ac35acad;  
-   
-}
 
 nav {
     position: relative;
