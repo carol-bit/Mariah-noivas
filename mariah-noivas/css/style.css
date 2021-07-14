@@ -1,0 +1,91 @@
+body
+{
+    background: rgba(241, 241, 241, 0.788);
+    height: 100%;
+    width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr minmax(300px, 65vh) 1fr;
+        grid-template-areas: 
+        "header header header"
+        "main     main   main"  
+        "footer footer footer";
+}
+
+
+.main {
+    grid-area: main;
+  }
+
+
+  p {
+    font-size: 30px;
+    line-height: 2.5rem;
+    padding: 5%;
+    padding-left: 8%;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(132, 100, 161);
+  height: 100%;
+}
+
+#footer-img{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-top: 180px;
+}
+#copy {
+  position: relative;
+  margin-top: 0px;
+  padding-top: 10px;
+  color: aliceblue;
+}
+
+
+
+  .mapa {
+    text-align: center;
+}
+
+.testinhoo {
+    background: rosybrown;
+    width: 32%;
+    height: 450px;
+    position: absolute;
+    font-size: 50px;
+    color: royalblue;
+}
+
+.testin {
+    background: rosybrown;
+    width: 32%;
+    height: 450px;
+    position: absolute;
+    font-size: 50px;
+    color: royalblue;
+    left: 70%;
+    bottom: 1%;
+}
+
+#maps {
+    width: 33,3%;
+}
+/*footer {
+    text-align: center;
+    padding: 40px 0;
+   position: relative;
+    background: rgb(136, 85, 96);
+    width: 100%;
+    box-shadow:  
+    15px 0px 8px black,
+    10px 0px 10px black;
+}
+
+.rodape-texto {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+}*/

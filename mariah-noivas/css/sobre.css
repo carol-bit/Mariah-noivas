@@ -22,13 +22,6 @@ h2 {
     text-align: center;
  }
 
-p {
-    font-size: 30px;
-    line-height: 2.5rem;
-    padding: 5%;
-    padding-left: 8%;
-}
-
 #cris {
   height: 70%;
   margin-top: 15%;
@@ -36,6 +29,7 @@ p {
   border-style: solid;
   border-color: rgb(119, 65, 119);
   border-radius: 90%;
-  margin-left: 18%;
+  margin-left: 19%;
   box-shadow: 6px 6px 10px 2px rgba(17, 17, 17, 0.637);
+  position: relative;
 }
