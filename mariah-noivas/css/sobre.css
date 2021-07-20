@@ -1,6 +1,20 @@
-.sobre {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+
+.flex-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.padrao-1 {
+  width: 48%;
+  margin: 1%;
+  background-color: rgb(226, 202, 248);
+}
+
+.padrao-2 {
+  width: 48%;
+  margin: 1%;
 }
 
 h2 {
@@ -12,43 +26,23 @@ h2 {
     font-family: 'Cinzel', serif;
 }
 
-blockquote {
-  font-size: 80px;
-}
-
-.list_col-1 {
-    grid-area: list-col-1;
-    height: 100%;
-    width: 50%;
-    text-align: center;
-  }
-  
-.list_col-2 {
-    grid-area: list-col-2;
-    text-align: center;
- }
-
  .grid-template-coluns-1 {
    background: rgba(224, 192, 255, 0.479);
    height: 70%;
    margin-top: 15%;
    margin-left: 10%;
  }
+ */
 
 #cris {
-  height: 67%;
-  margin-top: 15%;
   border-width: 8px;
-  margin-left: 19%;
-  margin-bottom: 0px;
   box-shadow: 6px 6px 10px 2px rgba(17, 17, 17, 0.637);
-  position: relative;
+
 }
 
 #frase {
   font-size: 20px;
   position: relative;
-  margin-left: 19%;
   margin-top: 0px;
   padding: 0px;
 }
