@@ -23,6 +23,8 @@ body
     line-height: 2.5rem;
     padding: 5%;
     padding-left: 8%;
+    font-family: 'Playfair Display', serif;
+    color: rgb(47, 22, 71);
 }
 
 footer {
