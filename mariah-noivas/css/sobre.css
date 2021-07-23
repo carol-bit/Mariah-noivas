@@ -1,5 +1,4 @@
 
-
 .flex-div {
   width: 100%;
   display: flex;
@@ -15,15 +14,8 @@
 .padrao-2 {
   width: 48%;
   margin: 1%;
-}
-
-h2 {
-    font-size: 50px;
-    text-align: left;
-    padding: 8%;
-    color: rgb(47, 22, 71);
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Cinzel', serif;
+  background-color: rgb(173, 173, 173);
+  align-items: center;
 }
 
  .grid-template-coluns-1 {
@@ -32,12 +24,12 @@ h2 {
    margin-top: 15%;
    margin-left: 10%;
  }
- */
+
 
 #cris {
   border-width: 8px;
   box-shadow: 6px 6px 10px 2px rgba(17, 17, 17, 0.637);
-
+  width: 100%;
 }
 
 #frase {

@@ -5,9 +5,9 @@ body
     width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr minmax(300px, 65vh) 1fr;
+        grid-template-rows: 1fr minmax(500px, 65vh) 1fr;
         grid-template-areas: 
-        "header header header"
+        "header header  header "
         "main     main   main"  
         "footer footer footer";
 }
@@ -27,6 +27,15 @@ body
     color: rgb(47, 22, 71);
 }
 
+h2 {
+  font-size: 50px;
+  margin: 60px;
+  color: rgb(47, 22, 71);
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
+}
+
+
 footer {
   text-align: center;
   background-color: rgb(132, 100, 161);
@@ -45,49 +54,3 @@ footer {
   padding-top: 10px;
   color: aliceblue;
 }
-
-
-
-  .mapa {
-    text-align: center;
-}
-
-.testinhoo {
-    background: rosybrown;
-    width: 32%;
-    height: 450px;
-    position: absolute;
-    font-size: 50px;
-    color: royalblue;
-}
-
-.testin {
-    background: rosybrown;
-    width: 32%;
-    height: 450px;
-    position: absolute;
-    font-size: 50px;
-    color: royalblue;
-    left: 70%;
-    bottom: 1%;
-}
-
-#maps {
-    width: 33,3%;
-}
-/*footer {
-    text-align: center;
-    padding: 40px 0;
-   position: relative;
-    background: rgb(136, 85, 96);
-    width: 100%;
-    box-shadow:  
-    15px 0px 8px black,
-    10px 0px 10px black;
-}
-
-.rodape-texto {
-    color: #ffffff;
-    font-size: 15px;
-    margin-top: 20px;
-}*/
