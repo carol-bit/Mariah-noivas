@@ -15,7 +15,12 @@ body
 
 .main {
     grid-area: main;
-  }
+}
+
+section  {
+  width: 90%;
+  margin: auto;
+}
 
 
   p {
@@ -29,10 +34,31 @@ body
 
 h2 {
   font-size: 50px;
+  margin: 40px;
+  color: rgb(47, 22, 71);
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.div-titulo {
+  margin: 100px;
+  align-items: center;
+}
+
+hr {
+  box-shadow: 3px 3px 10px 1px rgba(17, 17, 17, 0.637);
+  border-radius: 100%;
+  width: 500px;
+}
+
+h3 {
+  font-size: 20px;
   margin: 60px;
   color: rgb(47, 22, 71);
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Cinzel', serif;
+  text-align: center;
 }
 
 
