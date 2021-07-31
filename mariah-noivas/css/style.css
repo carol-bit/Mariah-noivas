@@ -12,6 +12,12 @@ body
         "footer footer footer";
 }
 
+.test {
+  position: fixed;
+  font-size: 30px;
+  background: blue;
+  margin-bottom: 0px;
+}
 
 .main {
     grid-area: main;
@@ -23,7 +29,7 @@ section  {
 }
 
 
-  p {
+p {
     font-size: 30px;
     line-height: 2.5rem;
     padding: 5%;
@@ -79,4 +85,19 @@ footer {
   margin-top: 0px;
   padding-top: 10px;
   color: aliceblue;
+}
+.historia {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(191, 158, 223);
+}
+
+#ft{
+    font-size: 10px;
+    line-height: 2.5rem;
+    padding: 5%;
+    padding-left: 8%;
+    font-family: 'Playfair Display', serif;
+    color: rgb(47, 22, 71);
+    text-align: left;
 }
