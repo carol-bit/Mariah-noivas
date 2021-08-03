@@ -1,4 +1,6 @@
-
+.sobre {
+  background-color: rgba(224, 192, 255, 0.479);
+}
 .flex-div {
   width: 100%;
   display: flex;

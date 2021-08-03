@@ -24,7 +24,7 @@ body
 }
 
 section  {
-  width: 90%;
+
   margin: auto;
 }
 
@@ -41,6 +41,8 @@ p {
 h2 {
   font-size: 50px;
   margin: 40px;
+  position: relative;
+  padding-top: 50px;
   color: rgb(47, 22, 71);
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Cinzel', serif;
@@ -55,7 +57,7 @@ h2 {
 hr {
   box-shadow: 3px 3px 10px 1px rgba(17, 17, 17, 0.637);
   border-radius: 100%;
-  width: 500px;
+  width: 200px;
 }
 
 h3 {
