@@ -30,7 +30,7 @@ section  {
 
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 2.5rem;
     padding: 5%;
     padding-left: 8%;
@@ -61,12 +61,11 @@ hr {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
   margin: 60px;
   color: rgb(47, 22, 71);
-  font-family: 'Cormorant Garamond', serif;
-  font-family: 'Cinzel', serif;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 

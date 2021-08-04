@@ -1,5 +1,5 @@
 .sobre {
-  background-color: rgba(224, 192, 255, 0.479);
+  background-color: rgba(41, 30, 51, 0.986);
 }
 .flex-div {
   width: 100%;
@@ -11,7 +11,7 @@
   width: 48%;
   margin: 1%;
   height: 600px;
-  background-color: rgb(212, 211, 211); 
+  background-color: rgba(212, 211, 211, 0); 
   text-align: center;
 }
 
@@ -23,6 +23,9 @@
   align-items: center;
 }
 
+#texto-sobre{
+  color: aliceblue;
+}
  .grid-template-coluns-1 {
    background: rgba(224, 192, 255, 0.479);
    height: 70%;

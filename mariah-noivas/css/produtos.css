@@ -1,7 +1,8 @@
 .div-produtos {
-    background-color: rgb(204, 204, 204);
+    background-color: rgba(204, 204, 204, 0);
     width: 30%;
     margin-left: 1.5%;
     margin-right: 1.5%;
+    text-align: center;
 }
 
