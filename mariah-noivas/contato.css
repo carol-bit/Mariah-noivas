@@ -5,3 +5,8 @@
     background-color: rgb(173, 173, 173);
     align-items: center;
   }
+
+  .div-titulo {
+    margin: 100px;
+    align-items: center;
+  }
